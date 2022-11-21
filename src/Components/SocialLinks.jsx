@@ -2,7 +2,6 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf"
 
 const SocialLinks = () => {
   const links = [
@@ -13,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/sayan-ghosh-8a09ab246/",
+      href: "https://www.linkedin.com/in/sayan-ghosh-8a09ab246/",
       style: "rounded-tr-md",
     },
     {
@@ -32,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "sayanghosh97x@gmail.com",
+      href: "https://mail.google.com/mail",
     },
     {
       id: 4,
@@ -41,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:{resume},
+      href: "https://drive.google.com/file/d/1ZgrbaxK6Gsw3xc5aVJaGKAkhj75vMODj/view",
       style: "rounded-br-md",
       download: true,
     },
@@ -60,7 +59,7 @@ const SocialLinks = () => {
             }
           >
             <a
-              href="https://drive.google.com/file/d/1ZgrbaxK6Gsw3xc5aVJaGKAkhj75vMODj/view?usp=share_link"
+              href={href}
               className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
