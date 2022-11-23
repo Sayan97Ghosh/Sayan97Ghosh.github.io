@@ -3,7 +3,7 @@ import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
-import dp from "../assets/dp.jpeg"
+import dp from "../assets/dp.jpg"
 import AnimatedText from "./AnimatedText";
 
 const Home = () => {

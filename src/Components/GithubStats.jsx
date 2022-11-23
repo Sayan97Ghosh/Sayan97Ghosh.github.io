@@ -21,7 +21,7 @@ const selectLastHalfYear = (contributions) => {
 
 const GitHubStats = () => {
   return (
-    <div className="w-full grid justify-center gap-4 align-middle h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white ">
+    <div className="w-full grid justify-center gap-4 align-middle h-full bg-gradient-to-b from-gray-800 to-gray-800 p-4 text-white ">
       <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">GitHub Stats</p>
       {/* Contribution status */}
       <div>
